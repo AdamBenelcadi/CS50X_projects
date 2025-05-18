@@ -1,0 +1,42 @@
+sort1 uses:
+Bubble sort
+
+How do you know?:
+for large sorted inputs it is expected that the bubble sort is going to be faster than the selection sort or the merge sort
+and that is what i discovered in this testing experience :
+real time: 0.053s of sorted10000.txt sorted by sort1
+real time: 2.177s of sorted50000.txt sorted by sort1
+real time: 0.068s of sorted10000.txt sorted by sort2
+real time: 2.479s of sorted50000.txt sorted by sort2
+real time: 0.132 of sorted10000.txt sorted by sort3
+real time: 3.700s sorted50000.txt sorted by sort3
+by the experiences above we can clearly conclude that sort1 is the fastest in term of big sorted inputs
+
+
+sort2 uses:
+Merge sort
+
+How do you know?:
+for large reversed or random inputs it is expected that the merge sort is going to be faster than the selection sort or the bubble sort
+and that is what i discovered in this testing experience :
+real time: 0.222s of random10000.txt sorted by sort1
+real time: 0.081s of random10000.txt sorted by sort2
+real time: 0.130s random10000.txt sorted by sort3
+by this experience we can see that sort2 if the fastest
+
+real time:  0.243s of reversed10000.txt sorted by sort1
+real time: 0.054s of reversed10000.txt sorted by sort2
+real time: 0.153s reversed10000.txt sorted by sort3
+and by this experience we conclude that sort2 is the fastest algorithm to sort big reversed or random inputs
+
+sort3 uses:
+Selection sort
+
+How do you know?:
+for large sorted inputs it is expected that the selection sort is going to be slower than the bubble sort
+and that is what i discovered in this testing experience :
+real time: 0.053s of sorted10000.txt sorted by sort1
+real time: 2.177s of sorted50000.txt sorted by sort1
+real time: 0.132 of sorted10000.txt sorted by sort3
+real time: 3.700s sorted50000.txt sorted by sort3
+by the experiences above we can clearly conclude that sort3 is the slower than sort1 in term of big sorted inputs
