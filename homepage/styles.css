@@ -1,0 +1,13 @@
+.center-text {
+    text-align: center; /* Horizontally centers the text */
+  }
+body {
+    background: linear-gradient(to right, grey, white);
+}
+.bold-text {
+  font-weight: 900; /* You can use values like 400, 500, 700, etc. */
+}
+.color {
+    color: yellow;
+    opacity: 80%;
+}
